@@ -1,0 +1,82 @@
+ /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    display: inline-block;
+  }
+  .sidebar h3{
+    margin: 8%;
+  }
+  .sidebar h3 img{
+    background-color: #9D58FA;
+    width: 15%;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover {
+    background-color: #F3F5F8;
+    color: black;
+  }
+  
+ 
+ .profile img{
+    width: 40px;
+ }
+ .card img{
+    height: 180px;
+ }
+ .chart{
+    background-color: #A162F7;
+    position: relative;
+ }
+ .chart-1 , .chart-2 , .chart-3{
+    position: relative;
+ }
+ .chart span , .chart-1 span , .chart-2 span , .chart-3 span{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translatex(-50%);
+ }
+ #chartcontrols {
+    height: auto;
+    padding: 5px 5px 0 16px;
+    max-width: 100%;
+  }
+  
+  #chartdiv {
+    width: 100%;
+    height: 600px;
+    max-width: 100%;
+  }
+.mini{
+    background-color: #E1DFA4;
+}
+.porsh{
+    background-color: #E3ECF1;
+}
+.porshe{
+    background-color: #F4E3E5;
+}
+.Booking .col-md-4:hover{
+scale: 1.05;
+}
+.Booking .col-md-4{
+    transition: all .5s;
+}
+.Dashboard .col-md-3:hover{
+    scale: 1.1;
+}
+.Dashboard .col-md-4:hover{
+    scale: 1.05;
+}
+.Dashboard .col-md-3 , .col-md-4{
+    transition: all .5s;
+
+}

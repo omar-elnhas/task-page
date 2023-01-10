@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!--Main Navigation-->
+    <div class="container-fluid">
+        
+            <div class="row">
+                <div class="col-md-2 sidebar bg-white">
+                   <div class="container sidebar d-flex flex-column h-100  justify-content-between">
+                      <div class="login">
+                        <h3><img src="css/img/Vector 1.svg" class="p-1 rounded-2" alt=""> <span class="active" href="#home">Motive.<span/></h3>
+                        <a href="#news" onclick="dashboard()"><i class="fa-solid text-muted fa-shapes"></i> Dashboard</a>
+                        <a href="#contact" ><img src="css/img/icons/Doughnut/Shape.svg" alt=""> Assets</a>
+                        <a href="#booking" onclick="Booking()"><img src="css/img/icons/Car/Vector.svg" alt=""> booking</a>
+                        <a href="#seel cars"><i class="fa-solid text-muted fa-bag-shopping"></i> sell cars</a>
+                        <a href="#buy cars"><img src="css/img/icons/Shopping Cart/Shape.svg" alt=""> buy cars</a>
+                        <a href="#Services"><i class="fa-solid text-muted fa-scissors"></i> Services</a>
+                        <a href="#calender"><i class="fa-regular text-muted fa-calendar-days"></i> calender</a>
+                        <a href="#messages"><i class="fa-regular text-muted fa-comments"></i> messages</a>
+                      </div>
+                      <div class="logout">
+                        <a href="#news"><i class="fa-solid text-muted fa-gears"></i> Settings</a>
+                        <a href="#contact"><i class="fa-solid text-muted fa-arrow-right-from-bracket"></i> Log out</a>
+                      </div>
+                   </div>
+                </div>
+            
+            <div class="col-md-10 ">
+        <div class="container">
+           
+                <div class="row bg-white my-2">
+            
+                    <div class="col-md-4">
+                        <div class=" my-2">
+                            <div class="container">
+                                <form class="d-flex align-items-center " role="search">
+                                    <input class="form-control border-0 bg-light m-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn bg-light " type="submit"><i class="fa-solid text-muted fa-magnifying-glass"></i></button>
+                                  </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-2 offset-6">
+                        <div class=" profile my-3 ">
+                            <i class="px-4 fa-regular text-muted fa-bell"></i>
+                            <img src="css/img/icons/portrait-handsome-european-male-student-has-gentle-smile-face-happy-hear-pleasant-news-stands-delighted-wears-round-spectacles-orange-jumper.png" class="rounded-circle" alt="">
+                        </div>
+                    </div>
+                
+                
+                
+            </div>
+           
+        
+        
+        <div class=" bg-light rounded-4">
+            <div class="container Booking d-block">
+                <h2 class="p-4">Booking</h2>
+            <div class="dropdown m-3">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="buttons">
+                        <button class="btn m-2 btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            New
+                          </button>
+                          <button class="btn m-2 btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Toyouta
+                          </button>
+                    </div>
+                  </div>
+                  
+                  
+                    
+                    <div class="col-md-2 offset-6">
+                        <div class="filters">
+                            <img src="css/img/icon.png" alt="">
+                            <img src="css/img/filter.png" alt="">
+                        </div>
+                    </div>
+                </div>
+               
+                
+                
+              </div>
+        
+              <div class="row gy-3">
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb.svg" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="fa-solid text-danger mx-2 fa-heart"></i>
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/2014-mercedes-benz-m-class-2012-mercedes-benz-m-class-2008-mercedes-benz-m-class-sport-utility-vehicle-mercedes-car-png-image-8230b0372dd015bcf5312eb17e2751ee (1).png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb.png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular  fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/toyota-innova-toyota-avanza-car-rush-toyota-seven-cars-a3650fca54041ac1aaae4fe013ac79ca 1.png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/maruti-suzuki-dzire-car-suzuki-ertiga-swift-dzire-f8a7d4ae19bd1c349dc080d9081ffd31.png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/suzuki-ertiga-maruti-car-suzuki-ciaz-suzuki-dcac04d3f676c91c7ca6f2d195b86ff3.png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/toyota-innova-toyota-avanza-car-rush-toyota-seven-cars-a3650fca54041ac1aaae4fe013ac79ca 1.png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/white car (1).png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/white car.png" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="container">
+                    <div class="card rounded-4 " >
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <h5 class="m-2">Porshe 718 cayman S</h5>
+                            <i class="mx-2 fa-regular fa-heart"></i>
+        
+                        </div>
+                        <p class="text-muted m-2">Coupe</p>
+                        
+                        <img src="css/img/car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb.svg" class="m-2" alt="...">
+                        <div class="info  d-flex justify-content-between align-items-center">
+                            <div class="profile-info">
+                                <i class="m-2 text-muted fa-regular fa-user"></i>
+                                <p class="d-inline">4</p>
+                                <i class="mx-2 text-muted fa-solid fa-vector-square"></i>
+                                <p class="d-inline" >manual</p>
+                            </div>
+                            <div class="price mx-2">
+                                <p class=" bolder">$400<span class="text-muted">/d</span> </p>
+                            </div>
+                           
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              
+            
+              </div>
+            </div>
+            <div class="container Dashboard d-none">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="container rounded-3 text-center text-white my-3">
+                            <div class="chart rounded-4">
+                                <i class="fa-solid my-4 fa-bolt"></i>
+                            <p class=" fw-bolder">Energy</p>
+                            <img src="css/img/icons/Ellipse_15-removebg-preview.png" class="my-4 " alt="">
+                            <span class="d-block fw-bolder">45%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <div class="container rounded-3 text-center text-dark my-3">
+                            <div class="chart-1 bg-white rounded-4">
+                                <i class="fa-solid my-4 fa-arrows-up-down"></i>
+                                                    <p class=" fw-bolder">Range</p>
+                            <img src="css/img/Ellips.jpg" class="my-4" alt="">
+                            <span class="d-block fw-bolder">157K%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <div class="container rounded-3 text-center text-dark my-3">
+                            <div class="chart-2 bg-white rounded-4">
+                                <i class="fa-solid my-4 fa-droplet text-primary "></i>
+                                                    <p class=" fw-bolder">Break Fluide</p>
+                            <img src="css/img/Ellipse (1).jpg" class="my-4" alt="">
+                            <span class="d-block fw-bolder">9%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <div class="container rounded-3 text-center text-dark my-3">
+                            <div class="chart-3 bg-white rounded-4">
+                                <i class="fa-solid my-4 text-danger fa-shield"></i>
+                            <p class=" fw-bolder">Tire Wear</p>
+                            <img src="css/img/Ellipse y(1).jpg" class="my-4" alt="">
+                            <span class="d-block fw-bolder">25%</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container bg-white my-4 rounded-4">
+                            <div class="text">
+                                <h4 class="p-4"><span class="fw-bolder">Miles</span> statistics<h4/>
+                                    <div class="d-flex justify-content-evenly align-items-center">
+                                        <div class="container d-flex justify-content-between align-items-center">
+                                            <div class="buttons">
+                                                <button class="btn my-2 btn-info text-light rounded-4 mx-2">day</button>
+                                                <button class="btn my-2 text-dark border-0  mx-2 text-light">week</button>
+                                                <button class="btn my-2 text-dark border-0 mx-2 text-light">month</button>
+                                            </div>
+                                                <h6 class="m-4">256 Miles<h6/>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                            </div>
+                            <canvas id="myChart"></canvas>
+        
+                        </div>
+                    </div>
+        
+        
+        
+                    <div class="col-md-6">
+                        <div class="container bg-white my-4 rounded-4">
+                            <div class="text">
+                                <h4 class="p-4"><span class="fw-bolder">car</span> statistics<h4/>
+                                    <div class="d-flex justify-content-evenly align-items-center">
+                                        <div class="container d-flex justify-content-between align-items-center">
+                                            <h6 class="m-4">20 February 2022<h6/>
+                                            
+                                            <div class="buttons">
+                                                <button class="btn my-2 btn-danger text-light mx-2">day</button>
+                                                <button class="btn my-2 btn-danger mx-2 text-light">week</button>
+                                                <button class="btn my-2 btn-danger mx-2 text-light">month</button>
+                                            </div>
+                                                
+                                        </div>
+                                        
+                                    </div>
+                                    
+                            </div>
+                            <canvas id="myChart1"></canvas>
+        
+                        </div>
+                    </div>
+                </div>
+        
+        
+            <div class="row pb-4">
+                <div class="col-md-4 my-3">
+                    <div class="container mini rounded-4">
+                        <div class="recommend pt-4">
+                            <img  src="css/img/icons/Vector.png" class=" mx-2 " alt="">
+                        <p class="fw-bold d-inline mt-3 ">64% Recommended</p>
+                        </div>
+                        <img src="css/img/icons/car.png " class="my-3" alt="">
+                        <p class="fw-bold mx-2 ">mini cooper</p>
+                        <div class="d-flex justify-content-between align-items-center py-4">
+                            <div class="right">
+                                <img src="css/img/icons/Vector (1).png" class=" mx-2" alt="">
+                        <p class="fw-bold d-inline mx-2 text-muted ">132k</p>
+                        <img src="css/img/icons/Vector (2).png" class=" mx-2" alt="">
+                        <img src="css/img/icons/Vector (3).png" class=" mx-2" alt="">
+        
+                            </div>
+                            <div class="left ">
+                            <p class="text-muted m-auto">$32/h</p>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="container porsh rounded-4">
+                        <div class="recommend pt-4">
+                            <img  src="css/img/icons/Vector.png" class=" mx-2 " alt="">
+                        <p class="fw-bold d-inline mt-3 ">74% Recommended</p>
+                        </div>
+                        <img src="css/img/icons/maruti-suzuki-suzuki-swift-car-suzuki-9c5818c39cb279f9dc7f844d7769288f.png" class="my-3" alt="">
+                        <p class="fw-bold mx-2 ">Porsche 911 carrera</p>
+                        <div class="d-flex justify-content-between align-items-center py-4">
+                            <div class="right">
+                                <img src="css/img/icons/Vector (1).png" class=" mx-2" alt="">
+                        <p class="fw-bold d-inline mx-2 text-muted ">130k</p>
+                        <img src="css/img/icons/Vector (2).png" class=" mx-2" alt="">
+                        <img src="css/img/icons/Vector (3).png" class=" mx-2" alt="">
+        
+                            </div>
+                            <div class="left ">
+                            <p class="text-muted m-auto">$28/h</p>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                </div>
+                <div class="col-md-4 my-3">
+                    <div class="container porshe rounded-4">
+                        <div class="recommend pt-4">
+                            <img  src="css/img/icons/Vector.png" class=" mx-2 " alt="">
+                        <p class="fw-bold d-inline mt-3 ">74% Recommended</p>
+                        </div>
+                        <img src="css/img/icons/car.png " class="my-3" alt="">
+                        <p class="fw-bold mx-2 ">Porsche 911 carrera</p>
+                        <div class="d-flex justify-content-between align-items-center py-4">
+                            <div class="right">
+                                <img src="css/img/icons/Vector (1).png" class=" mx-2" alt="">
+                        <p class="fw-bold d-inline mx-2 text-muted ">130k</p>
+                        <img src="css/img/icons/Vector (2).png" class=" mx-2" alt="">
+                        <img src="css/img/icons/Vector (3).png" class=" mx-2" alt="">
+        
+                            </div>
+                            <div class="left ">
+                            <p class="text-muted m-auto">$28/h</p>
+                            </div>
+                        </div>
+        
+        
+                    </div>
+                </div>
+            </div>
+        
+              
+            </div>
+        
+          </div>
+        </div>
+            </div>
+              
+              
+            </div>
+        
+    </div>
+    
+   
+
+
+
+    <!-- script -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
